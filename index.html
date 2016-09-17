@@ -6,7 +6,7 @@
 
 	<!-- For all browsers -->
 	<link rel="stylesheet" type="text/css" href="Stylesheets/style.css">
-	<link rel="stylesheet" type="text/css" href="Stylesheets/particle.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets/particle1.css">
 
 	<!--[if (lt IE 9) & (!IEMobile)]>
 	<script src="js/selectivizr-min.js"></script>
@@ -37,11 +37,11 @@
 	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
 	<!-- <link rel="apple-touch-startup-image" href="img/splash.png"> -->
 
-	<!-- <script>(function(){var p,l,r=window.devicePixelRatio;if(navigator.platform==="iPad"){p=r===2?"img/startup/startup-tablet-portrait-retina.png":"img/startup/startup-tablet-portrait.png";l=r===2?"img/startup/startup-tablet-landscape-retina.png":"img/startup/startup-tablet-landscape.png";document.write('<link rel="apple-touch-startup-image" href="'+l+'" media="screen and (orientation: landscape)"/><link rel="apple-touch-startup-image" href="'+p+'" media="screen and (orientation: portrait)"/>');}else{p=r===2?"img/startup/startup-retina.png":"img/startup/startup.png";document.write('<link rel="apple-touch-startup-image" href="'+p+'"/>');}})()</script> -->
+	<script>(function(){var p,l,r=window.devicePixelRatio;if(navigator.platform==="iPad"){p=r===2?"img/startup/startup-tablet-portrait-retina.png":"img/startup/startup-tablet-portrait.png";l=r===2?"img/startup/startup-tablet-landscape-retina.png":"img/startup/startup-tablet-landscape.png";document.write('<link rel="apple-touch-startup-image" href="'+l+'" media="screen and (orientation: landscape)"/><link rel="apple-touch-startup-image" href="'+p+'" media="screen and (orientation: portrait)"/>');}else{p=r===2?"img/startup/startup-retina.png":"img/startup/startup.png";document.write('<link rel="apple-touch-startup-image" href="'+p+'"/>');}})()</script>
 	<!--Microsoft -->
 
 	<!-- Prevents links from opening in mobile Safari -->
-	<!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
+	<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
 	<meta http-equiv="cleartype" content="on">
 
 	
@@ -88,27 +88,35 @@
 <body class="clearfix">
 
 <!-- Include Facebook like button -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=227683463924663";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 
-
-	<header id="header" style="opacity: 1; top: 0px;">
+	<header id="header">
 
 		<div class="row">
 
 			<div class="col-12">
 
-				<!-- <a id="logo" class="logo" href="">Prashant yadav</a> -->
+				<a id="logo" class="logo" href="http://www.adhamdannaway.com/">Adham Dannaway</a>
 				<div class="icon-nav">navigation</div>
 
 				<ul class="social">
-					<li class="facebook"><a href="http://www.facebook.com/pygold" title="Like me on Facebook" target="_blank">facebook</a></li>
-					<li class="twitter"><a href="http://www.twitter.com/pygold" title="Follow me on Twitter" target="_blank">twitter</a></li>
+					<li class="facebook"><a href="http://www.facebook.com/ilikeadham" title="Like me on Facebook" target="_blank">facebook</a></li>
+					<li class="twitter"><a href="http://www.twitter.com/AdhamDannaway" title="Follow me on Twitter" target="_blank">twitter</a></li>
 					<li class="github"><a href="http://www.github.com/thenuttymaker" title="See my github projects" target="_blank">github</a></li>
-					<li class="linkedin"><a href="http://www.linkedin.com/in/prashant-yadav-77b85134" title="Connect with me on Linkedin" target="_blank">linkedin</a></li>
+					<li class="linkedin"><a href="http://au.linkedin.com/in/adhamdannaway" title="Connect with me on Linkedin" target="_blank">linkedin</a></li>
 				</ul>
 				
 				<nav>
 
-					<ul id="nav">
+					<ul id="nav"  >
 						<li class="page_item page-item-2"><a href="http://www.adhamdannaway.com/about">about</a></li>
 <li class="page_item page-item-5"><a href="http://www.adhamdannaway.com/featured">featured</a></li>
 <li class="page_item page-item-7"><a href="http://www.adhamdannaway.com/portfolio">portfolio</a></li>
@@ -125,62 +133,56 @@
 
 	</header>  
 
-	<div id="content" class="content clearfix home" style="opacity: 1;">
- 
+	<div id="content" class="content clearfix home">
+
 		<section id="section" class="light nopad-t nopad-b">
 
 			<div class="row">
 
 				<div class="col-12">
-			
+					
 					<div id="face" class="face">
-   	
+
 						<a href="/portfolio">
-							<div id="designer" class="designer" style="opacity: 1;">
-							
-								<div id="designer-desc" class="description" style="opacity: 1;">
-								
+							<div id="designer" class="designer">
+								<div id="designer-desc" class="description">
 									<h1>designer</h1>
 									<p>UI/UX Designer with a passion for designing beautiful and functional user experiences.</p>
 								</div>
-							
 							</div>
 						</a>
 
 						<a href="/about">
-
-						<div id="particles-js">						
-							<div id="coder" class="coder" style="opacity: 1;">
-
-								<div id="coder-desc" class="description" style="opacity: 1;">
-									
+							<div id="coder" class="coder">
+								<div id="coder-desc" class="description">
 									<h1>&lt;coder&gt;</h1>
 									<p>Front End Developer who focuses on writing clean, elegant and efficient code.</p>
 								</div>
 							</div>
-							</div>
 						</a>
-<img id="face-img"  class="face-img" src="Stylesheets/images/prashant.png" alt="Prashant Yadav ui designer" style="opacity: 1;">
-						<div id="designer-img" class="designer-img" style="left: 100px; opacity: 1; width: 420px;"></div>
-						<div id="coder-img" class="coder-img" style="right: 100px; opacity: 1; width: 420px;"></div>
-						<div id="designer-bg" class="designer-bg" style="left: 100px; opacity: 1;"></div>
-						<div id="coder-bg" class="coder-bg" style="right: 100px; opacity: 1;"></div>
+
+						<img id="face-img" class="face-img" src="Stylesheets/images/prashant.png" alt="adham dannaway ui designer">
+
+						<div id="designer-img" class="designer-img"></div>
+						<div id="coder-img" class="coder-img"></div>
+						<div id="designer-bg" class="designer-bg"></div>
+						<div id="coder-bg" class="coder-bg"></div>
 
 					</div>
 
 				</div>
 
-			
+			</div>
 
 		</section>
-</div>
-		<div>
+
+		<div >
 
 			<section class="dark">
 				<div class="row">
 					<div class="col-12">
 						
-						<div id="content-detail" style="opacity: 1; top: 0px;">
+						<div id="content-detail">
 
 							<!-- Show 3 random portfolio posts -->
 							<div class="header-center"><h3>Some of my latest work</h3></div>
@@ -189,11 +191,11 @@
 																													
 
 								    <li>
-								        <a href="http://www.adhamdannaway.com/portfolio/quest-research">
-								            <img src="http://www.adhamdannaway.com/wp-content/uploads/2014/12/feature-quest-research.jpg" class="attachment-post-thumbnail wp-post-image" alt="feature-quest-research">								            <div class="description">
+								        <a href="http://www.adhamdannaway.com/portfolio/campaign-monitor-4">
+								            <img src="http://www.adhamdannaway.com/wp-content/uploads/2014/07/feature-monitor.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="feature-monitor" srcset="http://www.adhamdannaway.com/wp-content/uploads/2014/07/feature-monitor.jpg 628w, http://www.adhamdannaway.com/wp-content/uploads/2014/07/feature-monitor-300x175.jpg 300w" sizes="(max-width: 628px) 100vw, 628px" />								            <div class="description">
 								            	<span class="arrow-r"></span>
-								            	<h4>Quest Research</h4>
-								            	<p>Brand &amp; Website Design</p>
+								            	<h4>Monitor</h4>
+								            	<p>iPhone App Design</p>
 								            </div>
 								        </a>
 								    </li>
@@ -201,11 +203,11 @@
 							 														
 
 								    <li>
-								        <a href="http://www.adhamdannaway.com/portfolio/campaign-monitor-3">
-								            <img src="http://www.adhamdannaway.com/wp-content/uploads/2014/07/feature-segments.jpg" class="attachment-post-thumbnail wp-post-image" alt="feature-segments">								            <div class="description">
+								        <a href="http://www.adhamdannaway.com/portfolio/petra-capital">
+								            <img src="http://www.adhamdannaway.com/wp-content/uploads/2012/10/feature-petra-capital.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="feature-petra-capital" srcset="http://www.adhamdannaway.com/wp-content/uploads/2012/10/feature-petra-capital.jpg 628w, http://www.adhamdannaway.com/wp-content/uploads/2012/10/feature-petra-capital-300x175.jpg 300w" sizes="(max-width: 628px) 100vw, 628px" />								            <div class="description">
 								            	<span class="arrow-r"></span>
-								            	<h4>Campaign Monitor</h4>
-								            	<p>Segment Builder Design</p>
+								            	<h4>Petra Capital</h4>
+								            	<p>Brand & Website Design</p>
 								            </div>
 								        </a>
 								    </li>
@@ -213,11 +215,11 @@
 							 														
 
 								    <li>
-								        <a href="http://www.adhamdannaway.com/portfolio/freelancer">
-								            <img src="http://www.adhamdannaway.com/wp-content/uploads/2012/06/feature-freelancer.jpg" class="attachment-post-thumbnail wp-post-image" alt="feature-freelancer">								            <div class="description">
+								        <a href="http://www.adhamdannaway.com/portfolio/growth-giant">
+								            <img src="http://www.adhamdannaway.com/wp-content/uploads/2012/12/feature-growth-giant-brand.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="feature-growth-giant-brand" srcset="http://www.adhamdannaway.com/wp-content/uploads/2012/12/feature-growth-giant-brand.jpg 628w, http://www.adhamdannaway.com/wp-content/uploads/2012/12/feature-growth-giant-brand-300x175.jpg 300w" sizes="(max-width: 628px) 100vw, 628px" />								            <div class="description">
 								            	<span class="arrow-r"></span>
-								            	<h4>Freelancer</h4>
-								            	<p>Brand &amp; UX Design</p>
+								            	<h4>Growth Giant</h4>
+								            	<p>Brand & Website Design</p>
 								            </div>
 								        </a>
 								    </li>
@@ -236,13 +238,13 @@
 	</div><!-- / content -->
 
 
-<footer id="footer" role="contentinfo" style="opacity: 1; top: 0px;">
+<footer id="footer" role="contentinfo">
 
 	<div class="row">
 
 		<div class="col-12">
 
-			<div class="left"><a class="transition" href="http://www.adhamdannaway.com/">© 2016 Adham Dannaway</a></div>
+			<div class="left"><a class="transition" href="http://www.adhamdannaway.com/">&copy; 2016 Adham Dannaway</a></div>
 			
 			<nav id="nav-footer">
 
@@ -256,7 +258,10 @@
 
 			</nav>
 
-
+			<div class="right">
+				<iframe src="http://www.facebook.com/plugins/like.php?app_id=177751785616304&amp;href=http%3A%2F%2Fwww.facebook.com%2F%23%21%2FiLikeAdham&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+				<a href="http://twitter.com/AdhamDannaway" class="twitter-follow-button" data-show-count="false">Follow @AdhamDannaway</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+			</div>
 
 		</div>
 
@@ -267,18 +272,19 @@
 	</div>
 
 </footer>
-<script src="scripts/particle.js"></script>
-<script type="text/javascript" src="http://www.adhamdannaway.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20"></script>
-<script type="text/javascript">
+
+<script type='text/javascript' src='http://www.adhamdannaway.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
 /* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"http:\/\/www.adhamdannaway.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+var _wpcf7 = {"loaderUrl":"http:\/\/www.adhamdannaway.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="http://www.adhamdannaway.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.0.2"></script>
+<script type='text/javascript' src='http://www.adhamdannaway.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.adhamdannaway.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
 <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script> 
-<script src="scripts/script.js"></script>
+<script src="http://www.adhamdannaway.com/wp-content/themes/ad/js/script.js"></script>
 <script type="text/javascript">
 <!--
 
@@ -339,12 +345,16 @@ $(document).ready(function() {
 -->
 </script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-2290797-3', 'adhamdannaway.com');
+  ga('send', 'pageview');
 
+</script>
 
- 
-<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
-
-Page Caching using disk: enhanced
-
- Served from: www.adhamdannaway.com @ 2016-01-03 06:36:36 by W3 Total Cache --></body></html>
+</body>
+</html> 

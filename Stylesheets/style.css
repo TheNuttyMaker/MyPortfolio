@@ -7,6 +7,9 @@ Author URI: http://www.adhamdannaway.com/
 Version: 2.0
 */
 /* Reset =================================================== */
+
+/* remove canvas default margin */
+
 html,
 body,
 body div,
@@ -272,8 +275,8 @@ header nav li a:active {
 }
 .logo {
   height: 62px;
-  width: 40px;
-  background: url(images/sprite-mobile.png) 0px -63px no-repeat;
+  width: 55px;
+  background: url(images/logoSmall.png) 0px no-repeat;
   display: block;
   text-indent: -9999px;
   float: left;
@@ -739,273 +742,7 @@ img.shadow {
 .favicons li .abduzeedo {
   background-position: 0px -16px;
 }
-.favicons li .awwwards {
-  background-position: 0px -32px;
-}
-.favicons li .css-mania {
-  background-position: 0px -48px;
-}
-.favicons li .design-inspiration {
-  background-position: 0px -64px;
-}
-.favicons li .specky-boy {
-  background-position: 0px -80px;
-}
-.favicons li .wdl {
-  background-position: 0px -96px;
-}
-.favicons li .underworld-mag {
-  background-position: 0px -112px;
-}
-.favicons li .onetrapixel {
-  background-position: 0px -128px;
-}
-.favicons li .vandelay {
-  background-position: 0px -144px;
-}
-.favicons li .two-experts {
-  background-position: 0px -160px;
-}
-.favicons li .denzo-mag {
-  background-position: 0px -176px;
-}
-.favicons li .six-revisions {
-  background-position: 0px -192px;
-}
-.favicons li .smashing-geeks {
-  background-position: 0px -208px;
-}
-.favicons li .noupe {
-  background-position: 0px -224px;
-}
-.favicons li .womtec {
-  background-position: 0px -240px;
-}
-.favicons li .t3n {
-  background-position: 0px -256px;
-}
-.favicons li .eyes-on-pixel {
-  background-position: 0px -272px;
-}
-.favicons li .q-index {
-  background-position: 0px -288px;
-}
-.favicons li .css-wow {
-  background-position: 0px -304px;
-}
-.favicons li .css-mayo {
-  background-position: 0px -320px;
-}
-.favicons li .most-inspired {
-  background-position: 0px -336px;
-}
-.favicons li .css-based {
-  background-position: 0px -352px;
-}
-.favicons li .css-perk {
-  background-position: 0px -368px;
-}
-.favicons li .css-brigit {
-  background-position: 0px -384px;
-}
-.favicons li .css-gallery {
-  background-position: 0px -400px;
-}
-.favicons li .siiimple {
-  background-position: 0px -416px;
-}
-.favicons li .swd {
-  background-position: 0px -432px;
-}
-.favicons li .css-smooth-operator {
-  background-position: 0px -448px;
-}
-.favicons li .colorgorize {
-  background-position: 0px -464px;
-}
-.favicons li .css-line {
-  background-position: 0px -480px;
-}
-.favicons li .folio-focus {
-  background-position: 0px -496px;
-}
-.favicons li .css-design-awards {
-  background-position: 0px -512px;
-}
-.favicons li .karachi-corner {
-  background-position: 0px -528px;
-}
-.favicons li .css-brat {
-  background-position: 0px -544px;
-}
-.favicons li .gdj {
-  background-position: 0px -560px;
-}
-.favicons li .web-geekly {
-  background-position: 0px -576px;
-}
-.favicons li .design-deck {
-  background-position: 0px -592px;
-}
-.favicons li .arnaud {
-  background-position: 0px -608px;
-}
-.favicons li .underworld-mag {
-  background-position: 0px -624px;
-}
-.favicons li .beautiful-2 {
-  background-position: 0px -640px;
-}
-.favicons li .web-appers {
-  background-position: 0px -656px;
-}
-.favicons li .damn-digital {
-  background-position: 0px -672px;
-}
-.favicons li .inspire-first {
-  background-position: 0px -688px;
-}
-.favicons li .marked-lines {
-  background-position: 0px -704px;
-}
-.favicons li .92-pixels {
-  background-position: 0px -720px;
-}
-.favicons li .psd-collector {
-  background-position: 0px -736px;
-}
-.favicons li .com-limao {
-  background-position: 0px -752px;
-}
-.favicons li .art-spire {
-  background-position: 0px -768px;
-}
-.favicons li .acris-design {
-  background-position: 0px -784px;
-}
-.favicons li .e-junkie {
-  background-position: 0px -800px;
-}
-.favicons li .design-on-stop {
-  background-position: 0px -816px;
-}
-.favicons li .design-work {
-  background-position: 0px -832px;
-}
-.favicons li .trip-wire-mag {
-  background-position: 0px -848px;
-}
-.favicons li .e-consultancy {
-  background-position: 0px -864px;
-}
-.favicons li .dj-designer-lab {
-  background-position: 0px -880px;
-}
-.favicons li .css-gallery-pro {
-  background-position: 0px -896px;
-}
-.favicons li .ildp {
-  background-position: 0px -912px;
-}
-.favicons li .omega-imagine {
-  background-position: 0px -928px;
-}
-.favicons li .3lancer {
-  background-position: 0px -944px;
-}
-.favicons li .curiosando {
-  background-position: 0px -960px;
-}
-.favicons li .dwdb {
-  background-position: 0px -976px;
-}
-.favicons li .fish-be-cat {
-  background-position: 0px -992px;
-}
-.favicons li .kachibito {
-  background-position: 0px -1008px;
-}
-.favicons li .artatm {
-  background-position: 0px -1024px;
-}
-.favicons li .blue-blots {
-  background-position: 0px -1040px;
-}
-.favicons li .super-dit {
-  background-position: 0px -1056px;
-}
-.favicons li .css-awards {
-  background-position: 0px -1072px;
-}
-.favicons li .diego-burmudez {
-  background-position: 0px -1088px;
-}
-.favicons li .my-desy {
-  background-position: 0px -1104px;
-}
-.favicons li .edumac {
-  background-position: 0px -1120px;
-}
-.favicons li .demortalz {
-  background-position: 0px -1136px;
-}
-.favicons li .down-graf {
-  background-position: 0px -1152px;
-}
-.favicons li .noil {
-  background-position: 0px -1168px;
-}
-.favicons li .land-of-web {
-  background-position: 0px -1184px;
-}
-.favicons li .iguoguo {
-  background-position: 0px -1200px;
-}
-.favicons li .land-of-web {
-  background-position: 0px -1216px;
-}
-.favicons li .i-am-designing {
-  background-position: 0px -1232px;
-}
-.favicons li .smashing-journal {
-  background-position: 0px -1248px;
-}
-.favicons li .tuts-list {
-  background-position: 0px -1264px;
-}
-.favicons li .web-rockets-mag {
-  background-position: 0px -1280px;
-}
-.favicons li .andres-zenteno {
-  background-position: 0px -1296px;
-}
-.favicons li .top-design-mag {
-  background-position: 0px -1312px;
-}
-.favicons li .inspiration-mix {
-  background-position: 0px -1328px;
-}
-.favicons li .farbwolke {
-  background-position: 0px -1344px;
-}
-.favicons li .design-relexion {
-  background-position: 0px -1360px;
-}
-.favicons li .design-idol {
-  background-position: 0px -1376px;
-}
-.favicons li .design-your-way {
-  background-position: 0px -1392px;
-}
-.favicons li .wdc {
-  background-position: 0px -1408px;
-}
-.favicons li .design-beep {
-  background-position: 0px -1424px;
-}
-.favicons li .creattica {
-  background-position: 0px -1440px;
-}
+
 /* Pie Chart */
 .pie-chart {
   text-align: center;
@@ -1351,6 +1088,13 @@ button:active,
 .face .designer p {
   display: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .particles-js {
+        display: none !important;
+    }
+}
+
 @media only screen and (min-width: 321px) {
   .face .coder h1,
   .face .designer h1 {
@@ -1883,9 +1627,9 @@ button:active,
     height: 92px;
   }
   .logo {
-    height: 92px;
-    width: 62px;
-    background: url(images/sprite.png) 0px -93px no-repeat;
+    height: 87px;
+    width: 89px;
+    background: url(images/Prashantlogo.png) no-repeat;
   }
   header nav {
     float: right;
@@ -2572,7 +2316,7 @@ button:active,
   }
   .logo,
   .icon-nav {
-    background-image: url(images/sprite-mobile@2x.png);
+    background-image: url(images/Prashantlogo@2x.png);
     background-size: 200px 500px;
   }
   .social-disc li a,
