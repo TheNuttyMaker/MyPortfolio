@@ -1,9 +1,9 @@
 /*   
-Theme Name: Adham Dannaway
-Theme URI: http://www.adhamdannaway.com/
+Theme Name: Prashant Yadav
+Theme URI: https
 Description: Hand crafted portfolio website of Adham Dannaway
-Author: Adham Dannaway
-Author URI: http://www.adhamdannaway.com/
+Author: Prashant Yadav
+Author URI: https://thenuttymaker.github.io/
 Version: 2.0
 */
 /* Reset =================================================== */
@@ -236,7 +236,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 header {
-  background: #111;
+  background: #171717;
   height: 62px;
   padding: 0 5%;
   width: 90%;
@@ -1623,7 +1623,7 @@ button:active,
     padding-bottom: 0px;
   }
   header {
-    background: #111;
+    background: #171717;
     height: 92px;
   }
   .logo {
