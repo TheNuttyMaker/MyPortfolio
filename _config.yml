@@ -1,0 +1,45 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: TheNuttyMaker
+owner:
+  name: Prashant Yadav
+  link: http://TheNuttyMaker.github.io
+  email: pygold@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to the Makers world! Here we learn by doing.
+baseurl: "" # the subpath of your site, e.g. /blog
+
+collections:
+  docs:
+    output: true
+
+socials:
+  - name: github
+    user: TheNuttyMaker
+  - name: stack-overflow
+    user: 1232194
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  #style: compressed
+
+
+# Site styles
+
+palette:
+  primary: "#5c6bc0" # indigo, lighten-1
+  secondary: "#7986cb" # indigo lighten-2
+  tertiary: "#9fa8da" # indigo lighten-3
+  colored_text: "#c5cae9" # indigo lighten-4
+  highlight: "#f44336" # red color
